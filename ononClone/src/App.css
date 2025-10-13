@@ -4,4 +4,35 @@ body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: oklch(96.7% 0.003 264.542);
+}
+
+@keyframes hopIn {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.hop {
+  animation: hopIn 0.8s ease-out forwards;
+}
+
+@keyframes hopX {
+  0% {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.hopX {
+  animation: hopX 0.8s ease-out forwards;
 }
