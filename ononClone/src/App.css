@@ -1,10 +1,13 @@
 @import "tailwindcss";
+@import "aos/dist/aos.css";
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
-    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Oswald", sans-serif;
   background-color: oklch(96.7% 0.003 264.542);
+}
+
+.font-oswald {
+  font-family: "Oswald", sans-serif !important;
 }
 
 @keyframes hopIn {
@@ -35,4 +38,15 @@ body {
 
 .hopX {
   animation: hopX 0.8s ease-out forwards;
+}
+
+[data-aos="hop"] {
+  transform: translateY(30px);
+  opacity: 0;
+  transition-property: transform, opacity;
+}
+
+[data-aos="hop"].aos-animate {
+  transform: translateY(0);
+  opacity: 1;
 }
