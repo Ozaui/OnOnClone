@@ -24,7 +24,7 @@ const Card: React.FC = () => {
         className="p-6 bg-white rounded-xl shadow-lg"
       >
         <div className="flex items-center">
-          <div className="p-2 bg-gray-100 rounded-lg">
+          <div className="p-2 rounded-lg bg-[#eceae3]">
             <img src={icon1} alt="" />
           </div>
 
@@ -47,7 +47,7 @@ const Card: React.FC = () => {
         className="p-6 bg-white rounded-xl shadow-lg"
       >
         <div className="flex items-center">
-          <div className="p-2 bg-gray-100 rounded-lg">
+          <div className="p-2 bg-[#eceae3] rounded-lg">
             <img src={icon2} alt="" />
           </div>
 
@@ -70,7 +70,7 @@ const Card: React.FC = () => {
         className="p-6 bg-white rounded-xl shadow-lg"
       >
         <div className="flex items-center">
-          <div className="p-2 bg-gray-100 rounded-lg">
+          <div className="p-2 bg-[#eceae3] rounded-lg">
             <img src={icon3} alt="" />
           </div>
 
@@ -93,7 +93,7 @@ const Card: React.FC = () => {
         className="p-6 bg-white rounded-xl shadow-lg"
       >
         <div className="flex items-center">
-          <div className="p-2 bg-gray-100 rounded-lg">
+          <div className="p-2 bg-[#eceae3] rounded-lg">
             <img src={icon5} alt="" />
           </div>
 
@@ -116,7 +116,7 @@ const Card: React.FC = () => {
         className="p-6 bg-white rounded-xl shadow-lg"
       >
         <div className="flex items-center">
-          <div className="p-2 bg-gray-100 rounded-lg">
+          <div className="p-2 bg-[#eceae3] rounded-lg">
             <img src={icon4} alt="" />
           </div>
 
@@ -139,7 +139,7 @@ const Card: React.FC = () => {
         className="p-6 bg-white rounded-xl shadow-lg"
       >
         <div className="flex items-center">
-          <div className="p-2 bg-gray-100 rounded-lg">
+          <div className="p-2 bg-[#eceae3] rounded-lg">
             <img src={icon5} alt="" />
           </div>
 

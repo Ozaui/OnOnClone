@@ -1,16 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaCoffee } from "react-icons/fa";
 import home from "../assets/home.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Hakkinda: React.FC = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 100,
+    });
+  }, []);
   return (
-    <div className="bg-white w-full min-h-screen">
+    <div className="bg-white w-full min-h-screen ">
       <div className="mx-5 xl:mx-60 mt-5">
         <div className="flex items-center">
           <FaCoffee color="#c7a17a" size={20} />
-          <h3 className="ml-2">ONON HAKKINDA</h3>
+          <h3 className="ml-2 mt-5">ONON HAKKINDA</h3>
         </div>
-        <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-5">
+        <div
+          data-aos="hop"
+          data-aos-delay="0"
+          className="flex flex-col-reverse md:flex-row items-center justify-center gap-5"
+        >
           <div className="w-full md:w-1/2 px-2">
             <h1 className="text-4xl font-bold mt-5">ON NUMARA KENTİN </h1>
             <h1 className="text-4xl font-bold">ON NUMARA KAHVESİ</h1>
@@ -55,7 +68,11 @@ const Hakkinda: React.FC = () => {
               MENÜ
             </button>
           </div>
-          <div className="w-full md:w-1/2 flex justify-center">
+          <div
+            data-aos="hop"
+            data-aos-delay="0"
+            className="w-full md:w-1/2 flex justify-center"
+          >
             <img src={home} alt="coffe" className="max-w-full h-auto" />
           </div>
         </div>

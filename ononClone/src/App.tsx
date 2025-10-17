@@ -3,6 +3,7 @@ import Card from "./components/Card";
 import Hakkinda from "./components/Hakkinda";
 import Header from "./components/Header";
 import MainArea from "./components/MainArea";
+import Menu from "./components/Menu";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MainArea />
       <Card />
       <Hakkinda />
+      <Menu />
     </div>
   );
 }

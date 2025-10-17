@@ -10,12 +10,24 @@ const Header: React.FC = () => {
         <img className="w-10 md:w-15" src={logo} alt="onon-logo" />
         <div className="hidden lg:flex items-center">
           <div className="ml-20 flex gap-4 font-bold">
-            <a href="">ANA SAYFA</a>
-            <a href="">MENÜ</a>
-            <a href="">ŞUBELER</a>
-            <a href="">HABERLER</a>
-            <a href="">HAKKIMIZDA</a>
-            <a href="">İLETİŞİM</a>
+            <a href="" className="hover:text-[#c7a17a] duration-300">
+              ANA SAYFA
+            </a>
+            <a href="" className="hover:text-[#c7a17a] duration-300">
+              MENÜ
+            </a>
+            <a href="" className="hover:text-[#c7a17a] duration-300">
+              ŞUBELER
+            </a>
+            <a href="" className="hover:text-[#c7a17a] duration-300">
+              HABERLER
+            </a>
+            <a href="" className="hover:text-[#c7a17a] duration-300">
+              HAKKIMIZDA
+            </a>
+            <a href="" className="hover:text-[#c7a17a] duration-300">
+              İLETİŞİM
+            </a>
           </div>
         </div>
         <div className="flex">
